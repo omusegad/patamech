@@ -29,7 +29,7 @@ SECRET_KEY = config("SECRET_KEY")
 DEBUG = config('DEBUG', cast=bool)
 TEMPLATE_DEBUG = config('TEMPLATE_DEBUG', cast=bool)
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['example.com', 'example.com']
 
 
 # Application definition
@@ -41,7 +41,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'pata'
+    'rest_framework'
+    
+    'mechapp'
 ]
 
 MIDDLEWARE = [

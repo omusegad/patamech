@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class MechConfig(AppConfig):
+class MechappConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'mech'
+    name = 'mechapp'
